@@ -14,6 +14,8 @@ class Solution:
                     if abs(total - target) < abs(closest_sum - target):
                         closest_sum = total
         return closest_sum
+#Time Complexity: O(n^3)
+#Space Complexity: O(1)
 
 
 #Optiimized approach using two pointers
@@ -43,3 +45,6 @@ class Solution:
                 else:
                     j+=1
         return closest
+
+#Time Complexity: O(n^2)
+#Space Complexity: O(1)

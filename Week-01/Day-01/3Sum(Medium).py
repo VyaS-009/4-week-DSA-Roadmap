@@ -13,6 +13,9 @@ class Solution:
                         result.add(triplet)
         
         return list(result)
+#Time Complexity: O(n^3)
+#Space Complexity: O(m) where m is the number of unique triplets found
+
 
 # Optimized approach using two pointers
 class Solution:
@@ -43,5 +46,8 @@ class Solution:
                     j+=1
         return result
 
+
+#Time Complexity: O(n^2)
+#Space Complexity: O(1)
 
             
